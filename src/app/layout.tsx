@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import MobileNav from "@/components/mobile-nav";
 
 export const metadata: Metadata = {
   title: "Ironwood AI | AI Consulting & Agent Platform Development",
-  description: "Enterprise AI consulting, agent platform development, and intelligent automation. 25 years of architecture expertise applied to the AI frontier.",
+  description: "Enterprise AI consulting, agent platform development, and intelligent automation. 25 years of architecture expertise applied to the AI frontier. Nashville, TN.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   Start a Project
                 </Link>
               </nav>
+              <MobileNav />
             </div>
           </div>
         </header>
@@ -47,17 +49,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </div>
                   <span className="text-lg font-bold text-white">Ironwood AI</span>
                 </div>
-                <p className="text-sm text-[#737373] leading-relaxed max-w-sm">
-                  Enterprise AI consulting and agent platform development. Building the infrastructure layer for the AI-native enterprise.
+                <p className="text-sm text-[#737373] leading-relaxed max-w-sm mb-4">
+                  Enterprise AI consulting and agent platform development. We ship production code, not slide decks.
                 </p>
+                <p className="text-sm text-[#525252]">davewood.assistant@gmail.com</p>
               </div>
               <div>
                 <h4 className="text-xs font-bold uppercase tracking-wider text-[#737373] mb-4">Services</h4>
                 <ul className="space-y-2 text-sm text-[#525252]">
-                  <li><Link href="/services" className="hover:text-white transition-colors">AI Strategy</Link></li>
-                  <li><Link href="/services" className="hover:text-white transition-colors">Agent Platforms</Link></li>
-                  <li><Link href="/services" className="hover:text-white transition-colors">Cloud Architecture</Link></li>
-                  <li><Link href="/services" className="hover:text-white transition-colors">Custom AI Apps</Link></li>
+                  <li><Link href="/services#strategy" className="hover:text-white transition-colors">AI Strategy</Link></li>
+                  <li><Link href="/services#agent-platforms" className="hover:text-white transition-colors">Agent Platforms</Link></li>
+                  <li><Link href="/services#cloud" className="hover:text-white transition-colors">Cloud Architecture</Link></li>
+                  <li><Link href="/services#rapid-apps" className="hover:text-white transition-colors">Rapid AI Apps</Link></li>
+                  <li><Link href="/services#security" className="hover:text-white transition-colors">AI Security</Link></li>
+                  <li><Link href="/services#training" className="hover:text-white transition-colors">Training</Link></li>
                 </ul>
               </div>
               <div>
@@ -70,9 +75,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </ul>
               </div>
             </div>
-            <div className="border-t border-[#1c1c1c] mt-12 pt-8 flex justify-between items-center">
+            <div className="border-t border-[#1c1c1c] mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-2">
               <p className="text-xs text-[#525252]">© 2026 Ironwood AI. All rights reserved.</p>
-              <p className="text-xs text-[#525252]">Nashville, TN</p>
+              <p className="text-xs text-[#525252]">Nashville, Tennessee · Serving clients nationwide</p>
             </div>
           </div>
         </footer>
