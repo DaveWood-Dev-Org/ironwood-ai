@@ -196,7 +196,7 @@ export default function Home() {
               <p className="text-xs uppercase tracking-[0.3em] text-cyan-400 mb-3">The Founder</p>
               <h2 className="text-3xl font-bold mb-6">Dave Wood</h2>
               <p className="text-[#a3a3a3] leading-relaxed mb-4">
-                Senior engineer and AI architect with 25 years in enterprise software — most of it in healthcare technology. Former Deloitte consultant. Built platforms that process millions of clinical records, manage quality registries, and orchestrate AI agents at scale.
+                Senior engineer and AI architect with 25 years in enterprise software — most of it in healthcare technology. Original architect of a global Azure cloud platform for one of the Big Four consulting firms, designed to serve thousands of members worldwide. Built platforms that process millions of clinical records, manage quality registries, and orchestrate AI agents at scale.
               </p>
               <p className="text-[#a3a3a3] leading-relaxed mb-6">
                 Ironwood AI exists because most &quot;AI consultancies&quot; sell strategy decks and never ship code. We&apos;re the opposite: architects who build, engineers who deploy, and consultants who stay until it&apos;s in production.
