@@ -92,7 +92,7 @@ export default function Contact() {
               <h3 className="text-sm font-bold text-white mb-4">Quick Contact</h3>
               <div className="space-y-3 text-sm text-[#737373]">
                 <p>📍 Nashville, Tennessee</p>
-                <p>✉️ hello@ironwood.ai</p>
+                <p>✉️ davewood.assistant@gmail.com</p>
                 <p>📞 Available upon request</p>
               </div>
             </div>
