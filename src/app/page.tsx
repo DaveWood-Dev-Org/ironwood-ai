@@ -36,13 +36,7 @@ const services = [
     price: "From $20K",
     description: "Agent identity management, RBAC, audit frameworks, MCP authentication, and compliance tooling for enterprise AI.",
   },
-  {
-    icon: "🎓",
-    title: "AI Training & Enablement",
-    slug: "training",
-    price: "From $5K",
-    description: "Hands-on training for your team. From prompt engineering to building AI agents — we get your people productive.",
-  },
+
 ];
 
 const industries = [
