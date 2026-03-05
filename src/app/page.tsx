@@ -44,20 +44,20 @@ const caseStudies = [
   {
     title: "Mission Control",
     category: "AI Agent Platform",
-    description: "Enterprise control plane for AI agent orchestration. RBAC, audit logging, multi-tenant data planes, and real-time agent management.",
+    description: "Enterprise control plane for AI agent orchestration. RBAC, audit logging, multi-tenant data planes, and real-time agent management across healthcare domains.",
     tech: [".NET 10", "Azure", "Cosmos DB", "Next.js"],
   },
   {
-    title: "Self-Guided Tour System",
+    title: "Praxis of Medicine",
+    category: "Healthcare AI",
+    description: "AI-powered clinical intelligence platform for healthcare organizations. Automated compliance monitoring, provider analytics, and intelligent workflow orchestration.",
+    tech: [".NET 10", "Azure AI", "Cosmos DB", "Healthcare APIs"],
+  },
+  {
+    title: "Self-Guided Tour Platform",
     category: "IoT + AI Platform",
     description: "Smart lock integration, SMS verification, rotating PIN codes, and automated scheduling for self-guided home tours.",
     tech: ["Next.js", "Azure", "SMS API", "Smart Locks"],
-  },
-  {
-    title: "AI-Powered E-Commerce",
-    category: "Retail AI",
-    description: "Full jewelry store with AI-powered natural language search, variant intelligence, and automated product cataloging from 250+ SKUs.",
-    tech: ["Next.js", "AI Search", "Azure SWA", "Shopify API"],
   },
 ];
 
