@@ -54,10 +54,10 @@ const caseStudies = [
     tech: [".NET 10", "Azure AI", "Cosmos DB", "Healthcare APIs"],
   },
   {
-    title: "Self-Guided Tour Platform",
-    category: "IoT + AI Platform",
-    description: "Smart lock integration, SMS verification, rotating PIN codes, and automated scheduling for self-guided home tours.",
-    tech: ["Next.js", "Azure", "SMS API", "Smart Locks"],
+    title: "Enterprise Cloud Migration",
+    category: "Cloud Architecture",
+    description: "Large-scale Azure migration for healthcare systems. Multi-region deployment, HIPAA compliance, and zero-downtime cutover strategy.",
+    tech: [".NET 10", "Azure", "Terraform", "CI/CD"],
   },
 ];
 
