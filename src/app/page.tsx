@@ -278,7 +278,7 @@ export default function Home() {
               { n: "01", title: "Discovery Call", desc: "30-minute call to understand your goals, constraints, and timeline. Free, no commitment.", color: "text-cyan-400" },
               { n: "02", title: "Scope & Proposal", desc: "Clear scope, fixed price, defined deliverables. You know exactly what you're getting.", color: "text-violet-400" },
               { n: "03", title: "Build & Ship", desc: "Daily progress, working demos, real code in real environments. You see everything.", color: "text-purple-400" },
-              { n: "04", title: "Deploy & Support", desc: "Production deployment with CI/CD, documentation, and 30 days of support included.", color: "text-emerald-400" },
+              { n: "04", title: "Deploy & Deliver", desc: "Production deployment with CI/CD, full documentation, and knowledge transfer. You own everything.", color: "text-emerald-400" },
             ].map(step => (
               <div key={step.n} className="p-6 rounded-xl border border-[#262626] bg-[#141414] relative">
                 <p className={`text-2xl font-bold ${step.color} mb-2`}>{step.n}</p>
